@@ -1,0 +1,23 @@
+# jessie-oficiales
+deb http://mirrors.kernel.org/debian/ jessie main contrib non-free
+deb-src http://mirrors.kernel.org/debian/ jessie main contrib non-free
+
+# jessie actualizaciones de seguridad
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+#jessie actualizaciones sistema
+deb http://mirrors.kernel.org/debian/ jessie-updates main contrib non-free
+deb-src http://mirrors.kernel.org/debian/ jessie-updates main contrib non-free
+deb http://mirrors.kernel.org/debian/ jessie-proposed-updates main contrib non-free
+deb-src http://mirrors.kernel.org/debian/ jessie-proposed-updates main contrib non-free
+
+#jessie backports
+deb http://mirrors.kernel.org/debian/ jessie-backports main contrib non-free
+deb-src http://mirrors.kernel.org/debian/ jessie-backports main contrib non-free
+
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+deb http://ftp.us.debian.org/debian/ jessie-proposed-updates main contrib non-free
+deb-src http://ftp.us.debian.org/debian/ jessie-proposed-updates main contrib non-free
+
